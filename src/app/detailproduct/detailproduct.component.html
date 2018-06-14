@@ -1,0 +1,34 @@
+
+<div  class='rows'>
+    <div class="inforOrder" > 
+              <div class="topheader">
+                  <p><a class='linkhome' routerLink='/home'>Home    </a>&raquo;<a class='order'>order   </a>&raquo;<a class='spp'>{{productDetail.name}}</a></p>
+              </div>
+              <div class="infor">
+                  <div class="infor_content infor_content_img" style='border-bottom:1px solid #ebebeb;'>
+                      <img id="myimage" class="img_hidden1" [src]='productDetail.src' alt="ahihi">
+                  </div>
+                  <div class="infor_content infor_content_infor">
+                      <p>Name: <span class="name_hidden">{{productDetail.name}}</span></p>
+                      <p>Cost: <span class="cost_hidden">{{productDetail.cost - productDetail.cost*sale}}&#36;</span></p>
+                      <p>Introduce: <span class="sg_hidden">{{productDetail.suggestions}}</span></p>
+                      <p>Call now: <span class="sdt_hidden" >123456789</span></p>
+                  </div>
+              </div>
+    </div>
+</div>
+<div class='rows'>
+    <div class='formDangky'>
+    <form #formDangky class=' ElementOrder formDDH' action=''>
+      <p class='lablename'>Full name<span class='warning'>*</span></p>
+      <input value='' name='nameddh'type="text" placeholder="Enter your full name">
+      <p class='lablename'>Email<span class='warning'>*</span></p>
+      <input value=''  name='emailddh' type="email" placeholder="Enter your email">
+      <p class='lablename'>Phone<span class='warning'>*</span></p>
+      <input value=''  name='phoneddh' type="number" placeholder="Enter your phone">
+      <p class='lablename'>Addess<span class='warning'>*</span></p>
+      <input value=''  name='addressddh' type="text" placeholder="Enter your addess">
+      <button class='btnDDH' (click)='status(formDangky.nameddh.value, formDangky.emailddh.value, formDangky.phoneddh.value, formDangky.addressddh.value)' type="submit">Sent order</button>
+    </form>
+</div>
+</div>

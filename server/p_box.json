@@ -1,0 +1,48 @@
+[
+    {
+    "id":"product_box_01_box1",
+    "src":"../assets/image/box/hk1.jpg",
+    "name":"Pink","cost":13,
+    "suggestions":" "
+    },
+    {
+    "id":"product_box_02_box2",
+    "src":"../assets/image/box/hk2.jpg",
+    "name":"Caro",
+    "cost":12,
+    "suggestions":" "},{
+    "id":"product_box_03_box3",
+    "src":"../assets/image/box/hk3.jpg",
+    "name":"Red",
+    "cost":7,
+    "suggestions":" "},
+    {"id":"product_box_04_box4",
+    "src":"../assets/image/box/hk4.jpg",
+    "name":"Blue","cost":9,
+    "suggestions":" "}
+    ,
+    {
+    "id":"product_box_05_box5",
+    "src":"../assets/image/box/hk6.jpg",
+    "name":"Gray",
+    "cost":8,
+    "suggestions":" "
+    },{
+    "id":"product_box_06_box6",
+    "src":"../assets/image/box/hk6.jpg",
+    "name":"Red",
+    "cost":8,"suggestions":" "
+    },
+    {
+    "id":"product_box_07_box7",
+    "src":"../assets/image/box/hk7.jpg",
+    "name":"Gray",
+    "cost":45,
+    "suggestions":" "
+    },
+    {
+    "id":"product_box_08_box8",
+    "src":"../assets/image/box/hk8.jpg",
+    "name":"Pink","cost":8,
+    "suggestions":" "
+    }]

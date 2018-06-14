@@ -1,0 +1,457 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Noto Serif', sans-serif;
+	font-size: 16px;
+	line-height: 40px;
+	color: #252525;
+	/*background-image: url('/assets/image/bg1.jpg');*/
+	background-color: #33FF66;
+	margin-top: 0;
+}
+div{
+	display: block;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0 none;
+	max-width: 100%;
+	height: auto;
+}
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+	margin-left: auto;
+	background-color: white;	
+	
+}
+.rows{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+/*title*/
+.title{
+	text-align: center;
+	padding-bottom:3px;
+	padding-top:30px;
+}
+.title a{
+	color: #f4574c;
+	font-size: 36px;
+    line-height: 26px;
+    margin: 0;
+    padding:0;
+}
+.title_under a{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+/*Product*/
+.product {
+	width: 23%;
+	min-height: 250px;
+	margin: 6px 1%;
+	float: left;
+	border: 1px solid  #ebebeb;
+	transition: boder;
+	-webkit-transition: boder;
+	border-radius: 20%;
+}
+.product .name_product, .cost_sanpham, .xem_product, .sale_product{
+	text-align: center;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	
+}
+.product .name_product{
+	color:black;
+
+}
+.product .img_product{
+	 padding-left: 40px;
+}
+.product .xem_product a{
+	color:rgb(153, 153, 153);
+	-webkit-transition: color;
+    transition: color;
+    font-style: italic;
+}
+.cost_product, .sale_product{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.product .cost_product {
+	color: #f4574c;
+	text-decoration: line-through;
+}
+.product:hover{
+	border: 1px solid #f4574c;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product:hover .xem_product a{
+	color:#f4574c;
+	transition: 0.5s;
+	cursor: pointer;
+}
+/*Product_child*/
+.product_child{
+	width: 23%;
+	float: left;
+	margin: 5px 1%;	
+	border: 1px solid #ebebeb;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20%;
+}
+.product_child .name_product_child, .cost_product_child, .img_product_child{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-weight: bold;
+}
+.product_child .name_product_child{
+	font-size: 15px;
+	color: gray;
+
+}
+.product_child .img_product_child{
+	width: 30%;
+	margin-left: 60px;
+}
+.product_child .cost_product_child a{
+	color: white;
+}
+.product_child:hover{
+	border: 1px solid #f4574c;
+	transition: 1s;
+}
+.product_child:hover .cost_product_child a{
+	color:#f4574c;
+	transition: 1;
+}
+
+
+@media (max-width: 768px){
+		.product{
+			width: 31.33333%;
+		}
+		.product .img_product{
+			width: 70%;	
+		}
+		.title a{
+			font-size: 25px;
+		}
+		.cost_product, .sale_product{
+			font-size: 13px;
+		}
+		.product_child .img_product_child{
+			margin-left: 20px;
+		}
+
+  }
+@media(max-width:525px){
+	   .product{
+		   width: 48%;
+	   }
+	   .title a{
+		font-size: 20px;
+		}
+}
+
+
+/* child */
+.box_product{
+    border: 10px solid transparent;
+    padding: 15px;
+    border: 2px solid #f4574c;
+    min-height: 1300px;
+    margin-top: 10px;
+}
+.elementname {
+	font-size: 21px;
+	line-height: 20px;
+	color:#252525;
+	padding: 2px 0;
+}
+.elementpage{
+	display: inline;
+	color: #f4574c;
+	font-weight: 400;
+	margin-left: 10px;
+}
+.elementpage a{
+	color: #8a8a8a;
+    display: inline;
+}
+.elementpage a:hover{
+	color: #f4574c;
+}
+.elementamount{
+	font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #252525;
+	line-height: 35px;
+	float: right;
+	padding-right: 20px;
+}
+.elementpadding{
+	margin: 1% 4%;
+	min-height: 70px;
+	border-bottom: #ebebeb;
+}
+.amount{
+	color: #f4574c;
+	cursor: pointer;
+}
+
+@media (max-width:768px){
+    .box_product{
+        min-height: 1800px;
+    }
+}
+@media (max-width:525px){
+    .box_product{
+        height: 2200px;  
+    }
+}
+@media (max-width:324px){
+    .box_product{
+        min-height: 2200px;  
+    }
+}
+
+
+@media (min-width: 768px){
+	.container{
+		width: 750px;
+	}
+  }
+  @media (min-width: 992px) {
+	.container {
+	  width: 970px;
+	}
+  }
+  @media (min-width: 1200px) {
+	.container {
+	  width: 1170px;
+	}
+}
+
+/* child */
+.modal{
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;    
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.modal-content{
+    background-color: #fefefe;
+    margin: -2% auto 10% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.titleinfor{
+    padding-left: 40px;
+    font-size: 20px;
+}  
+.cancle{
+    float: right;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 20px;
+}
+.cancle:hover, .cancle :focus {
+    color: red;
+    cursor: pointer;
+}
+.infor{
+    width: 100%;
+    height: 400px;
+}
+.infor_content{
+    width: 50%;
+    float: left;
+    padding: 16px;
+}
+
+.infor_content_img{
+   text-align: center;
+   position: relative;
+}
+.img_hidden{
+    width: 50%;
+    margin-top: 40px;
+}
+.order_hidden{
+    margin-top: 15px;
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+	background: #f4574c;
+    border: solid 1px #f4574c;
+	position: relative;
+	text-align: center;
+    
+}
+.order_hidden a{
+	color:white;
+	font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+.order_hidden:hover{ 
+   opacity: 0.8;
+}
+
+.name_hidden{
+    font-weight: inherit;
+    color: #575454;
+    font-size: 30px;
+    transition: color;
+}
+.name_hidden:hover{
+    color: #575454;
+    transition: 1s;
+   
+}
+.cost_hidden{
+    font-family: 'Noto Serif';
+    font-weight: 400;
+    color: #f4574c;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.sg_hidden{
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #6b6b6b;
+    padding-bottom: 0;
+}
+.sdt_hidden{
+    margin-left: 5px;
+    font-family: 'Noto Serif';
+    font-size: 18px;
+    color: #f4574c;
+    line-height: 24px;
+}
+.sdt_hidden:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.showdetailhidden{
+    text-align: center;
+    text-decoration: underline;
+    color: #575454;
+}
+.animate {
+    -webkit-animation: animatezoom 0.1s;
+        animation: animatezoom 0.1s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+@media (max-width:768px){
+    .infor{
+        height: 540px;
+    }
+}
+@media (max-width:525px){
+    .modal{
+        overflow-x: scroll;
+    }
+    .infor{
+        height: 1000px;
+        background-color: white;
+    }
+    .infor .infor_content{
+        width: 100%;
+        
+    }
+}
+
+
+/* detai0 */
+.orderdetail{
+    border-top: 1px solid #ebebeb;
+    height: auto;
+    background-color: white;
+}
+
+.formDDH{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.formDDH > input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.formDDH .lablename{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.btnDDH{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.btnDDH:hover{
+    opacity: 0.8;
+}
+.warning{
+    color:red;
+}
+.inforOrder{
+	height: auto;
+	border-bottom: 1px solid #ebebeb;
+
+}
+.infor1{
+  min-height: 400px;
+}
+.infor_content_img1{
+	padding-left: 100px;
+}
+#abcxyz{
+    background-color: #f4574c;
+    color:white;
+    border: none;   
+    
+}

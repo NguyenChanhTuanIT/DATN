@@ -1,0 +1,17 @@
+<div class='rows'>
+  <div style='padding:30px;' class='search'>
+    <p><span style='color: #f4574c;' >Search &raquo;</span><span id='titleSearch'> Searching for {{cutpath().toString()}}</span> </p>
+    <div style='min-height: 300px;'>
+
+          <div class="product">
+            <p class='name_product'>{{productsearch.name}}</p>
+            <img class="img_product" [src]='productsearch.src' [alt]='productsearch.title' >
+            <p class="xem_product"><a routerLink='/order/{{this.productsearch.id}}' id="xem" title="Show product">Order</a></p>
+            <span class="cost_product">{{productsearch.cost}}&#36;</span>
+            <span class="sale_product">{{productsearch.cost - productsearch.cost*consale}}&#36;</span>
+        </div>
+
+    </div>
+  </div>
+
+</div>  

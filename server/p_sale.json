@@ -1,0 +1,20 @@
+[
+    {
+        "id":"product_sale_01_triump",
+        "src":"../assets/image/sale/s1.jpg",
+        "name":"Triumph","cost":80,
+        "suggestions":"With the strong red tone of the rednaomi rose and the lightness of the rose skin combined together, like the triumphal thrust of life in the wish that all of us have achieved much success..."
+    },
+        {
+            "id":"product_sale_02_califonia",
+            "src":"../assets/image/sale/s2.jpg",
+            "name":"Califonia","cost":70,
+            "suggestions":"Californian products are delicately designed, combining red roses and calimero purple, giving a love-filled, friendly, small family. Suitable products to give your lover birthday, your friends..."
+        },
+         {
+                "id":"product_sale_03_truelove",
+                "src":"../assets/image/sale/s3.jpg",
+                "name":"True love","cost":60,
+                "suggestions":"The \"true love\" flower bouquet does not look as brightly as other bouquets, but hidden inside is a sweet, elegant and noble beauty. The white color of roses exudes purity and virtue, combined with the simple beauty of sand flowers..."
+           }
+]

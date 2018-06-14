@@ -1,0 +1,121 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+<!-- headee -->
+<div class="rows">
+        <div class="header">
+           <div class="header_content header_contact">
+                <ul>
+                    <li><a href='https://www.facebook.com/Giftlove-1505643176230083/?modal=admin_todo_tour'><img [src]='urlHeader[0].src' (mouseenter)="changefb1()" (mouseleave)="changefb2()" [alt]="urlHeader[0].alt" [title]='urlHeader[0].title'/></a></li>
+                    <li><a href='https://play.google.com/store/apps/details?id=com.skype.raider'><img [src]='urlHeader[1].src' (mouseenter)="changesk1()" (mouseleave)="changesk2()" [alt]="urlHeader[1].alt" [title]='urlHeader[1].title'/></a></li>
+                    <li><a href='https://play.google.com/store/apps/details?id=v.d.d.answercall'><img [src]='urlHeader[2].src' (mouseenter)="changephone1()" (mouseleave)="changephone2()" [alt]="urlHeader[2].alt" [title]='urlHeader[2].title'/></a></li>
+                 </ul>
+           </div>
+           <div class="header_content header_logo">
+                <a routerLink="/home" ><img [src]='urlHeader[3].src' [alt]="urlHeader[3].alt" [title]='urlHeader[3].title'/></a>
+           </div>
+           <div class="header_content header_form">
+             <form>
+
+               <input id='searchne' type="text" #inputin name='inputin' placeholder="Searching for product..." />
+                <a  [routerLink]="linksearch" id='rou' class='btn-search'style='cursor:pointer; border:none;color:white; background:#f4574c;' (click)='getDemo(inputin.value)'>Search</a>
+            </form>
+           </div>
+        </div>
+</div>
+ <!--Menuhidden-->
+<div class="rows">
+    <div class="header_hidden ">
+        <div class="header_hidden_content header_hd_1">
+                 <a routerLink="/home" ><img [src]='urlHeader[3].src' [alt]="urlHeader[3].alt" [title]='urlHeader[3].title'/></a>
+        </div>
+        <div class="header_hidden_content header_hd_2">
+                 <img [src]='urlHeader[5].src' [alt]="urlHeader[5].alt" [title]='urlHeader[5].title'/>
+                 <div class="menu_hidden">
+                    <ul>
+                        <li *ngFor="let itemMenu of listmenu"><a [routerLink]='itemMenu.href'>{{itemMenu.name}}</a></li>
+                    </ul>
+                 </div>
+        </div>
+    </div>
+</div>
+<!-- menu -->
+<div class="rows">
+    <div class="menu">
+        <div class="menu_1">
+            <ul>
+                <li *ngFor="let itemMenu of listmenu"><a [routerLink]='itemMenu.href'>{{itemMenu.name}}</a></li>
+            </ul>
+        </div>
+        <div class="menu_2">
+            <span id='btn-name' class='span-hidden' style='color: #f4574c; cursor: pointer;'><span style='color: black'>Hello : </span>{{NameVisitor}}</span>
+            <button id='abcxyz' style="cursor: pointer" (click)='showlogin()'>Login</button>
+        </div>
+    </div>
+</div>
+
+
+
+ <!-- SHowhome -->
+ <router-outlet></router-outlet>
+
+<!-- contact -->
+<div class="rows" >
+		<div class="contact">
+			<div class="contact1">
+				<p class="step" >One</p><p>Fast delivery</p>
+			</div>
+			<div class="contact1">
+				<p class="step">Two</p><p>Support</p>
+			</div>
+			<div class="contact1">
+		        <p class="step" >Three</p><p>Free boxed</p>
+			</div>
+		</div>
+</div>
+
+
+<!-- fotter -->
+<div class="rows">
+		<div class="footer">
+            <div class="footer_content footer_img footer_1">
+                <ul>
+                    <li>Have been declare On january 26th 2018 with<br> passtion and hopely in developer on website </li>
+                    <li>Address :<span class="ahihi">College information technology</span></li>
+                    <li>Number :<span  class="ahihi">01668313914</span></li>
+                    <li> Email :<span  class="ahihi">itnguyenchanhtuan@gmail.com</span></li>
+                </ul>
+            </div>
+            <div class="footer_content footer_2">
+                <p class="title_footer ">POLICY</p>
+                    <ul>
+                        <li><a routerLink='/policy/support'>Support client office</a></li>
+                        <li><a routerLink='/policy/identifier'>Policy identifier</a></li>
+                        <li><a routerLink='/policy/pay'>Policy pay</a></li>
+                        <li><a routerLink='/policy/transfor'>Policy transfor</a></li>
+                        <li><a href='index.html' title="click to logout" style='color:#f4574c;'>{{nameInput}}</a></li>
+                    
+                    </ul>
+            </div>
+    </div>
+</div>
+
+
+<div id="login" class="modallogin">
+    <div class="modal-content modal-content-login ">
+        <div class="topheader">
+            <span class="cancle" (click)="hiddenlogin()">&times;</span>
+           
+        </div>
+        <div class="infor bglogin">
+            <form #formlogin action='' required>
+                <p>Name</p>
+                <input value='' name='nameshow' type='text' placeholder="Enter name" required/>
+                <p>Email</p>
+                <input #emaill name='emaillogin' value='' type='email' placeholder="Enter email to login" required />
+                <p style='text-align:center;'>Receive promotional information</p>
+                <button (click)='checklogin(formlogin.nameshow.value, formlogin.emaillogin.value)' >SUBMIT</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>

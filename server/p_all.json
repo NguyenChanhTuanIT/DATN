@@ -1,0 +1,292 @@
+[
+    {
+      "id":"prduct_fresh_01_truelove",
+      "src":"../assets/image/fresh/f_2.jpg",
+      "name":"Truly love",
+      "cost":120,
+      "suggestions":"The \"true love\" flower bouquet does not look as brightly as other bouquets, but hidden inside is a sweet, elegant and noble beauty. The white color of roses exudes purity and virtue, combined with the simple beauty of sand flowers..."
+    },
+    {
+        "id":"prduct_fresh_02_triump",
+        "src":"../assets/image/fresh/f_17.jpg",
+        "name":"Triumph","cost":70,
+        "suggestions":"With the strong red tone of the rednaomi rose and the lightness of the rose skin combined together, like the triumphal thrust of life in the wish that all of us have achieved much success..."
+    },
+        {
+            "id":"prduct_fresh_03_hope",
+            "src":"../assets/image/fresh/f_4.jpg",
+            "name":"Hope",
+            "cost":95,"suggestions":"\"Hope\" brings the viewer with so many feelings of innocence, gentleness and freshness of young girls. Just like the sweet and romantic dream, bright in..."
+    },
+            {"id":"prduct_fresh_04_oldstory",
+            "src":"../assets/image/fresh/f_5.jpg",
+            "name":"Old Story",
+            "cost":80,"suggestions":"The old-fashioned \"ladies and gentlemen\" bring to the viewer a sense of innocence, gentleness and freshness of youthful youth, as romantic and romantic dreams..."
+    },
+            {"id":"prduct_fresh_05_special",
+            "src":"../assets/image/fresh/f_1.jpg",
+            "name":"Special love",
+            "cost":130,"suggestions":"A bouquet of flowers is designed from the strange flowers that few people will have the feeling of love for that person is special..."},
+            {"id":"prduct_fresh_06_romatic",
+            "src":"../assets/image/fresh/f_6.jpg",
+            "name":"Romatic",
+            "cost":80,
+            "suggestions":"The flowers fragile, gentle interwoven with each green vicky branch is like a dream of love that full of love, hope. That purple color, keep evocative in the heart of the desire to hold hands together ..."
+    },
+        {
+            "id":"prduct_fresh_07_young",
+            "src":"../assets/image/fresh/f_7.jpg",
+            "name":"Young age",
+            "cost":45,
+            "suggestions":"Products include Roses, Roses, Roses ..."
+        },
+        {
+            "id":"prduct_fresh_08_grand",
+            "src":"../assets/image/fresh/f_8.jpg",
+            "name":"Grand prix",
+            "cost":80,
+            "suggestions":"Bring flowers with the message of thanks and the best wishes from the bottom of your heart to the recipient. Suitable for sending gifts to parents, relatives, elders, friends ..."
+    },
+        {
+            "id":"prduct_fresh_09_dream",
+            "src":"../assets/image/fresh/f_9.jpg",
+            "name":"Dream sweet",
+            "cost":55,
+            "suggestions":"The flowers fragile, gentle interwoven with each green vicky branch is like a dream of love that full of love, hope. The purple color that, always evoked in the heart of the desire to hold hands together..."
+    },
+        {
+            "id":"prduct_fresh_10_passion",
+            "src":"../assets/image/fresh/f_10.jpg",
+            "name":"Passion",
+            "cost":80,
+            "suggestions":"Passion is one of the strongest motivations to create great trust and strength in one of mind, enabling us to be able to overcome all difficulties in work and life..."
+        },
+        {
+            "id":"prduct_fresh_11_fall",
+            "src":"../assets/image/fresh/f_11.jpg",
+            "name":"Fall in love",
+            "cost":94,
+            "suggestions":"What is your mood when you love someone? Surely a series of emotions such as nervous, shy will somewhat invade your feelings and desire to be always beside the person you love. However, as the chief.."
+    },
+        {
+            "id":"prduct_fresh_12_wish",
+            "src":"../assets/image/fresh/f_12.jpg",
+            "name":"Wish",
+            "cost":650,
+            "suggestions":" Bring flowers with the message of thanks and the best wishes from the bottom of your heart to the recipient. Suitable for sending gifts to parents, relatives, elders, friends ..."
+    },
+        {
+            "id":"prduct_fresh_13_biglove",
+            "src":"../assets/image/fresh/f_13.jpg",
+            "name":"Big love",
+            "cost":130,
+            "suggestions":"Big Love is a large flower basket designed with a variety of colors such as red roses, sunflowers, white lilies ... suitable for family members with the desire to bring good wishes. , full and full..."
+    },
+        {
+            "id":"prduct_fresh_14_elegant",
+            "src":"../assets/image/fresh/f_14.jpg",
+            "name":"Elegant",
+            "cost":120,
+            "suggestions":"Elegant - With luxurious style, give my beloved ones with good wishes for a happy life, happiness, and forever. Suitable for congratulation, birthday, anniversary,..."
+    },
+        {
+            "id":"prduct_fresh_15_sunlight",
+            "src":"../assets/image/fresh/f_15.jpg",
+            "name":"Sun light",
+            "cost":10,
+            "suggestions":"Designed with the main yellow tone, the flower vase \"Sun drop on the shelf\" brings shimmering beauty and full of vitality. Combined with sunflowers, carnations and orchids, the flower will be a great gift for loved ones..."
+    },
+        {
+            "id":"prduct_fresh_16_greenday",
+            "src":"../assets/image/fresh/f_16.jpg",
+            "name":"Green day",
+            "cost":70,
+            "suggestions":"With fresh flowers and a little change of hands, \"Green Day\" as a gentle, green and full of love for the people you love..."
+
+        },
+        {
+        "id":"product_sale_01_triump",
+        "src":"../assets/image/sale/s1.jpg",
+        "name":"Triumph","cost":80,
+        "suggestions":"With the strong red tone of the rednaomi rose and the lightness of the rose skin combined together, like the triumphal thrust of life in the wish that all of us have achieved much success..."
+        },
+        {
+            "id":"product_sale_02_califonia",
+            "src":"../assets/image/sale/s2.jpg",
+            "name":"Califonia","cost":70,
+            "suggestions":"Californian products are delicately designed, combining red roses and calimero purple, giving a love-filled, friendly, small family. Suitable products to give your lover birthday, your friends..."
+        },
+            {
+                "id":"product_sale_03_truelove",
+                "src":"../assets/image/sale/s3.jpg",
+                "name":"True love","cost":60,
+                "suggestions":"The \"true love\" flower bouquet does not look as brightly as other bouquets, but hidden inside is a sweet, elegant and noble beauty. The white color of roses exudes purity and virtue, combined with the simple beauty of sand flowers..."
+           },
+           {
+        "id":"product_special_01_speciallove",
+        "src":"../assets/image/special/special_1.jpg",
+        "name":"Special love","cost":130,
+        "suggestions":"A bouquet of flowers is designed from the strange flowers that few people will have the feeling of love for that person is special..."},
+        {
+            "id":"product_special_02_trulylove",
+            "src":"../assets/image/special/special_2.jpg",
+            "name":"Truly love",
+            "cost":120,
+            "suggestions":"The \"true love\" flower bouquet does not look as brightly as other bouquets, but hidden inside is a sweet, elegant and noble beauty. The white color of roses exudes purity and virtue, combined with the simple beauty of sand flowers..."},
+            {
+                "id":"product_special_03_triump",
+                "src":"../assets/image/special/special_3.jpg",
+                "name":"Triumph",
+                "cost":70,
+                "suggestions":"With the strong red tone of the rednaomi rose and the lightness of the rose skin combined together, like the triumphal thrust of life in the wish that all of us have achieved much success..."},
+            {
+                "id":"product_special_04_hope",
+                "src":"../assets/image/special/special_4.jpg",
+                "name":"Hope",
+                "cost":95,
+                "suggestions":"\"Hope\" brings the viewer with so many feelings of innocence, gentleness and freshness of young girls. Just like the sweet and romantic dream, bright in..."},
+            {
+                "id":"product_special_05_oldstory",
+                "src":"../assets/image/special/special_6.jpg",
+                "name":"Old Story",
+                "cost":80,
+                "suggestions":"The old-fashioned \"ladies and gentlemen\" bring to the viewer a sense of innocence, gentleness and freshness of youthful youth, as romantic and romantic dreams..."},
+            {
+                "id":"product_special_06_romatic",
+                "src":"../assets/image/special/special_6.jpg",
+                "name":"Romatic",
+                "cost":80,
+                "suggestions":"The flowers fragile, gentle interwoven with each green vicky branch is like a dream of love that full of love, hope. That purple color, keep evocative in the heart of the desire to hold hands together ..."},
+            {
+                "id":"product_special_07_youngage",
+                "src":"../assets/image/special/special_7.jpg",
+                "name":"Young age",
+                "cost":45,
+                "suggestions":"Products include Roses, Roses, Roses ..."},
+            {
+                "id":"product_special_08_grand",
+                "src":"../assets/image/special/special_8.jpg",
+                "name":"Grand prix",
+                "cost":80,
+                "suggestions":"The special flower..."},
+                {
+                    "id":"product_special_09_dream",
+                    "src":"../assets/image/special/special_9.jpg",
+                    "name":"Dream sweet",
+                    "cost":55,
+                    "suggestions":"The flowers fragile, gentle interwoven with each green vicky branch is like a dream of love that full of love, hope. The purple color that, always evoked in the heart of the desire to hold hands together..."},{"id":"product_special_10_passing","src":"../assets/image/special/special_10.jpg","name":"Passion","cost":80,"suggestions":"Passion is one of the strongest motivations to create great trust and strength in one of mind, enabling us to be able to overcome all difficulties in work and life..."
+                }
+                ,
+                {
+    "id":"product_thankful_02_truly",
+    "src":"../assets/image/thankful/tk_2.jpg",
+    "name":"Truly love",
+    "cost":120,
+    "suggestions":"The \"true love\" flower bouquet does not look as brightly as other bouquets, but hden inside is a sweet, elegant and noble beauty. The white color of roses exudes purity and virtue, combined with the simple beauty of sand flowers..."
+},
+    {
+        "id":"product_thankful_01_mother",
+        "src":"../assets/image/thankful/tk_1.jpg",
+        "name":"Mother love",
+        "cost":130,
+        "suggestions":"A bouquet of flowers is designed from the strange flowers that few people will have the feeling of love for that person is special..."},
+        {
+            "id":"product_thankful_03_triump","src":"../assets/image/thankful/tk_3.jpg",
+            "name":"Triumph",
+            "cost":70,
+            "suggestions":"With the strong red tone of the rednaomi rose and the lightness of the rose skin combined together, like the triumphal thrust of life in the wish that all of us have achieved much success..."
+        },
+        {
+            "id":"product_thankful_04_hope","src":"../assets/image/thankful/tk_4.jpg",
+            "name":"Hope",
+            "cost":95,
+            "suggestions":"\"Hope\" brings the viewer with so many feelings of innocence, gentleness and freshness of young girls. Just like the sweet and romantic dream, bright in..."
+        },
+        {
+            "id":"product_thankful_05_oldtory","src":"../assets/image/thankful/tk_5.jpg",
+            "name":"Old Story",
+            "cost":80,
+            "suggestions":"The old-fashioned \"ladies and gentlemen\" bring to the viewer a sense of innocence, gentleness and freshness of youthful youth, as romantic and romantic dreams..."
+        },
+        {
+            "id":"product_thankful_06_romatic","src":"../assets/image/thankful/tk_6.jpg",
+            "name":"Romatic",
+            "cost":80,"suggestions":"The flowers fragile, gentle interwoven with each green vicky branch is like a dream of love that full of love, hope. That purple color, keep evocative in the heart of the desire to hold hands together ..."
+            },
+            {
+                "id":"product_thankful_07_youngage","src":"../assets/image/thankful/tk_7.jpg",
+                "name":"Young age",
+                "cost":45,
+                "suggestions":"Products include Roses, Roses, Roses ..."
+            },
+
+            {
+                "id":"product_thankful_08_grand","src":"../assets/image/thankful/tk_8.jpg",
+                "name":"Grand prix",
+                "cost":80,
+                "suggestions":"The special flower..."
+                
+                },
+                
+                {
+                    "id":"product_thankful_09_dream","src":"../assets/image/thankful/tk_9.jpg",
+                    "name":"Dream sweet",
+                    "cost":55,
+                    "suggestions":"The flowers fragile, gentle interwoven with each green vicky branch is like a dream of love that full of love, hope. The purple color that, always evoked in the heart of the desire to hold hands together..."
+                },
+                {
+                    "id":"product_thankful_10_passing","src":"../assets/image/thankful/tk_10.jpg",
+                    "name":"Passion",
+                    "cost":80,
+                    "suggestions":"Passion is one of the strongest motivations to create great trust and strength in one of mind, enabling us to be able to overcome all difficulties in work and life..."
+                },
+                {
+                "id":"product_box_01_box1",
+                "src":"../assets/image/box/hk1.jpg",
+                "name":"Pink","cost":13,
+                "suggestions":" "
+    },
+    {
+        "id":"product_box_02_box2",
+        "src":"../assets/image/box/hk2.jpg",
+        "name":"Caro",
+        "cost":12,
+        "suggestions":" "},{
+        "id":"product_box_03_box3",
+        "src":"../assets/image/box/hk3.jpg",
+        "name":"Red",
+        "cost":7,
+        "suggestions":" "},
+        {"id":"product_box_04_box4",
+        "src":"../assets/image/box/hk4.jpg",
+        "name":"Blue","cost":9,
+        "suggestions":" "}
+    ,
+    {
+    "id":"product_box_05_box5",
+    "src":"../assets/image/box/hk6.jpg",
+    "name":"Gray",
+    "cost":8,
+    "suggestions":" "
+    },{
+    "id":"product_box_06_box6",
+    "src":"../assets/image/box/hk6.jpg",
+    "name":"Red",
+    "cost":8,"suggestions":" "
+    },
+    {
+    "id":"product_box_07_box7",
+    "src":"../assets/image/box/hk7.jpg",
+    "name":"Gray",
+    "cost":45,
+    "suggestions":" "
+    },
+    {
+    "id":"product_box_08_box8",
+    "src":"../assets/image/box/hk8.jpg",
+    "name":"Pink","cost":8,
+    "suggestions":" "
+    }
+
+    
+    ]

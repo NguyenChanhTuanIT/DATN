@@ -1,0 +1,39 @@
+ <div class="rows">
+    <div class="sale">
+        <div class="storesale storesale1">
+            <p class='title anima'><a>
+              Sale today</a></p>
+            <p class='title' style="margin:0;padding-top:3px;"><a>
+                      {{sale*100}}%</a></p>
+            <div class="box_content" >
+              <div class="box">
+                <p>{{time.ngay}}</p>
+                <p id="tim">{{time.day}}</p>
+              </div>
+              <div class="box">
+                <p>{{time.gio}}</p>
+                <p id="tim">{{time.hour}}</p>
+              </div>
+              <div class="box">
+                <p>{{time.phut}}</p>
+                <p id="tim">{{time.minutes}}</p>
+              </div>
+              <div class="box">
+                <p>{{time.giay}}</p>
+                <p id="tim">{{time.second}}</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="storesale storesale2">
+          <div class="sanpham" *ngFor='let sp of saledata'>
+                    <p class='name_sanpham'>{{sp.name}}</p>
+                    <img  class="img_sanpham" [src]='sp.src' [alt]='sp.name' >
+                    <p class="xem_sanpham"><a id="xem" title="Show product" (click)="onSelect(this.sp)">read...</a></p>
+                    <span class="cost_sanpham">{{sp.cost}}&#36;</span>
+                    <span class="sale_sanpham">{{sp.cost - (sp.cost * sale)}}&#36;</span>
+          </div>
+        </div>
+    </div>
+  </div>
+<app-showsanpham [Choosingproduct]="selectedProduct"></app-showsanpham>

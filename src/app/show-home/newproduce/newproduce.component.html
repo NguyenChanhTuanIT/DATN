@@ -1,0 +1,22 @@
+<div class='rows'>
+  <div class="newproduct" id="newproduct">
+    <div class="bg_icon">
+      <p class="title title_under"><a>New Products</a></p>
+    </div>
+    <div class="box_product">
+              <div  *ngFor='let item of sp' class="product">
+                      <p class='name_product'>{{item.name}}</p>
+                      <img class="img_product" [src]='item.src' [alt]='item.name' >
+                      <p class="xem_product"><a id="xem" (click)='onselectnew(this.item)' title="Show product">read...</a></p>
+                      <span class="cost_product">{{item .cost}}&#36;</span>
+                      <span class="sale_product">{{item.cost -item.cost*sale}}&#36;</span>
+                    </div>
+                    </div>
+          </div>
+  </div>
+  <div class="rows">
+      <div class="giftbox" style=' clear: both; cursor: pointer;' >
+        <a routerLink='/special'><img src='../assets/image/quangcao.png' alt='popup' title= 'quảng cáo' /></a>
+      </div>
+  </div>
+<app-showsanpham [Choosingproduct]='selectedProductnew'></app-showsanpham>

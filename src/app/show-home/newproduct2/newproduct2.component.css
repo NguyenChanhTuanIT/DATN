@@ -1,0 +1,61 @@
+.newproduct{
+    border-bottom: 1px solid #ebebeb;
+}
+.bg_icon{
+    padding-top:2px;   
+    background-image: url(/assets/image/time.PNG);
+    background-position: TOP center;
+    background-repeat: no-repeat; 
+    width: 100%; 
+}
+.box_product2{
+        border: 10px solid transparent;
+        padding: 15px;
+        border: 2px solid #ebebeb;
+        min-height: 1200px;
+        margin-top: 10px;
+        clear: both;
+}
+@media (max-width:768px){
+    .box_product2{
+        min-height: 1300px;
+    }
+}
+@media (max-width:525px){
+    .box_product2{
+        height: 1200px;  
+    }
+}
+@media (max-width:324px){
+    .box_product2{
+        min-height: 1300px;  
+    }
+}
+
+.step{
+    min-height: 20px;
+    padding-right: 50px;
+    text-align: right;
+}
+.step .excute{
+    width: 20px;
+    height: 20px;
+    background-color: #f4574c;
+    float: right;
+    border-radius: 50%;
+    text-align: center
+}
+.step .excute:hover{
+    border: 1px solid  #f4574c;
+    background-color: white;
+}
+
+.active{ 
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid  #f4574c;
+    float: right;
+    border-radius: 50%;
+    text-align: center;
+}
